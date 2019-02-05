@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="Content/app.css">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">COMP308</a>
+      <nav class="navbar navbar-expand-lg navbar-white bg-white">
+            <!-- <a class="navbar-brand" href="/">COMP308</a> -->
+            <img src="../Assets/images/logo-hyojin.jpg" style="height:50px; weight:50px;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,7 +34,7 @@
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/about"><i class="fa fa-lg fa-info"></i> About</a>
+                        <a class="nav-link" href="/about"><i class="fa fa-lg fa-info-circle"></i> About</a>
                     </li>
 
 
@@ -42,7 +43,7 @@
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/products"><i class="fa fa-lg fa-briefcase"></i> Products</a>
+                        <a class="nav-link" href="/products"><i class="fa fa-lg fa-gift"></i> Products</a>
                     </li>
 
 
@@ -51,7 +52,7 @@
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/services"><i class="fa fa-lg fa-birthday-cake"></i> Services</a>
+                        <a class="nav-link" href="/services"><i class="fa fa-lg fa-gratipay"></i> Services</a>
                     </li>
 
 
@@ -60,7 +61,7 @@
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/contact"><i class="fa fa-lg fa-phone"></i> Contact</a>
+                        <a class="nav-link" href="/contact"><i class="fa fa-lg fa-phone-square"></i> Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,11 +69,10 @@
 
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <h1 class="display-4">Hello, Hyojin Kim</h1>
+            <p class="lead">This <b><%= title %></b> page is for exercise 3 (Express Demo).</p>
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="https://github.com/hyojin54/COMP308-W2019-Lesson3A" role="button" target="_blank">GitHub Link</a>
         </div>
     </div>
 
